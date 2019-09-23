@@ -15,7 +15,7 @@ public class Credito {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id_cliente")
+	@Column(name = "id_credito")
 	private int id;
 
 	@Column(name = "monto")
